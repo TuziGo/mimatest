@@ -18,6 +18,8 @@
         }
         span {
             color: red;
+            font-size: 28px;
+            font-weight: bold;
         }
         p {
             color: red;
@@ -43,7 +45,9 @@ window.location.href='about:blank';
 </script>
 <body onload="time()">
     <h1>欢迎使用密码提取</h1>
-    <h1><span>B站：让我自己动</span></h1>
+    <a href="https://b23.tv/jyr0Ldk">
+        <button><span>B站：让我自己动</span></button>
+    </a>
     <h1>资源免费分享</h1>
     <form action="rwzjd.com">
         <input type="text" id="pw">
@@ -53,7 +57,7 @@ window.location.href='about:blank';
     <p id="time">Sat Dec 24 2022 16:30:46 GMT+0800 (中国标准时间)</p>
     <p>如果你是购买资源，请点击下方按钮提供倒卖者的信息，以供大家参考</p>
     <a href="https://www.wenjuan.com/s/UZBZJvQxtG/?share_device=m">
-        <button>点击跳转</button>
+        <button><span>点击跳转</span></button>
     </a>
 
     <script>
@@ -168,10 +172,31 @@ window.location.href='about:blank';
          e1="8";}
         if(e=="7"){
          e1="9";}
+        var f=Math.floor(s/100000000) % 10;
+        if(f=="0"){
+         f1="倒卖没命花";}
+        if(f=="1"){
+         f1="倒卖没命花";}
+        if(f=="2"){
+         f1="倒卖没妈";}
+        if(f=="3"){
+         f1="倒卖没妈";}
+        if(f=="4"){
+         f1="倒卖真狗";}
+        if(f=="5"){
+         f1="倒卖真狗";}
+        if(f=="6"){
+         f1="倒卖没脸";}
+        if(f=="7"){
+         f1="倒卖没脸";}
+        if(f=="8"){
+         f1="倒卖无良";}
+        if(f=="9"){
+         f1="倒卖无良";}
         if(s==""){
          document.getElementById("view").innerHTML="密码为空";}
          else
-        { document.getElementById("view").innerHTML="密码是:"+"倒卖没命花"+e1+d1+c1+b1+a1;}
+        { document.getElementById("view").innerHTML="密码是:"+f1+e1+d1+c1+b1+a1;}
         }
     </script>
 
