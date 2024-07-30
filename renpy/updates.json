@@ -1,9 +1,0 @@
-{
-  "gameonly": {
-    "rpu_digest": "479b3b4af808d50aac861abe03927d768c65d9c497cb14fd642726afd4c00aec", 
-    "rpu_url": "rpu/gameonly.files.rpu", 
-    "version": "af8578f4299e9a667a42394b0ddc15d2fe39f998e31fdabb85a0afe640a0205a", 
-    "pretty_version": "0.9.4", 
-    "renpy_version": "7.7.3.24061702"
-  }
-}
